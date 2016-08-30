@@ -77,8 +77,8 @@ do_Page.on("refreshmerchant", function(){
 		listdataTabs.addData(data);
 		jsonSlides = JSON.parse(JSON.stringify(data));
 		listdataSlides.addData(jsonSlides);
-//		deviceone.print(JSON.stringify(listdataTabs.getRange(0)));
-//		deviceone.print(JSON.stringify(listdataSlides.getRange(0)));
+		deviceone.print(JSON.stringify(listdataTabs.getRange(0)));
+		deviceone.print(JSON.stringify(listdataSlides.getRange(0)));
 		do_SegmentView_tabs.refreshItems();
 		do_SlideView_merchant.refreshItems();
 	}

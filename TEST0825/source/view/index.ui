@@ -8,7 +8,7 @@
 		"type":"do_ALayout",
 		"views":[
 			{
-				"bgColor":"546985FF",
+				"bgColor":"50537CFF",
 				"x":"-2",
 				"width":"1090",
 				"y":"8",
@@ -46,7 +46,7 @@
 				"height":"220"
 			},
 			{
-				"bgColor":"485A79FF",
+				"bgColor":"76709EFF",
 				"width":"1092",
 				"y":"226",
 				"id":"do_ALayout_body",
@@ -63,9 +63,9 @@
 				"height":"1514"
 			},
 			{
-				"bgColor":"485A79FF",
-				"x":"-2",
-				"width":"1090",
+				"bgColor":"D3D2DFFF",
+				"x":"10",
+				"width":"1078",
 				"y":"1742",
 				"id":"do_ALayout_bott",
 				"type":"do_ALayout",
@@ -94,8 +94,8 @@
 								"height":"110"
 							},
 							{
-								"x":"86",
-								"y":"108",
+								"x":"66",
+								"y":"112",
 								"fontSize":"42",
 								"id":"do_Label_b0",
 								"text":"微商",
@@ -179,7 +179,7 @@
 								"height":"104"
 							},
 							{
-								"x":"94",
+								"x":"66",
 								"y":"108",
 								"fontSize":"42",
 								"id":"do_Label_b3",
@@ -191,7 +191,7 @@
 						"height":"158"
 					}
 				],
-				"height":"178"
+				"height":"168"
 			},
 			{
 				"bgColor":"000000FF",

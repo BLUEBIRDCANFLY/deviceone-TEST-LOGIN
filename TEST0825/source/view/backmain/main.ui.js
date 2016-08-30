@@ -4,16 +4,15 @@
  * @Author : router
  * @Timestamp : 2016-08-10
  */
-deviceone.print("点了！")
-//组件库
+
+//组件库，DO_APP在主页面中如果没引用，那么DO_VIEWSHOWER_MAIN是不能使用的,注意大小写	
 var do_App = sm("do_App");
 var do_Page = sm("do_Page");
-var do_Notification = sm("do_Notification");
-var do_Global = sm("do_Global");
-var do_DataCache_state = sm("do_DataCache");
-var deviceone=require("deviceone");
-//定义UI变量
 
+//定义UI变量
+var do_ALayout_back = ui("do_ALayout_back")
+
+//使返回按钮可用
 do_ALayout_back.on("touch",function(){
 	do_App.closePage();
 }
